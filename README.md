@@ -1,7 +1,10 @@
-# [Spring Boot and AngularJS](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-and-angularjs-integration-tutorial/)
+# Spring Boot and AngularJS
 
 
   - Add maven. Create pom.xml. 
+  + [This one is not working. ](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-and-angularjs-integration-tutorial/)
+  + [This is working. But it does not have the angularjs element.](http://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-first-application.html)
+
   - @Configuration tags the class as a source of bean definitions. 
   - @EnableAutoConfiguration tells Spring Boot to start adding beans based on classpath settings, other beans and various property settings.
   - @ComponentScan tells Spring to look for other components, configurations and services.
