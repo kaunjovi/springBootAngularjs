@@ -16,9 +16,10 @@ public class MainController {
 	@RequestMapping("/")
 	String homepage() {
 
-		// TODO: Why is the debug not showing up. But the SOP is.
+		// (https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-and-angularjs-integration-tutorial/)
+		// You need to overwrite SpringBoot's setting of logback if you want the
+		// debug messages to show up.
 		logger.debug("The homepage is hit.");
-		System.out.println("The homepage is hit.");
 		return "index";
 	}
 
