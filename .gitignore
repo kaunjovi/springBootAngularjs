@@ -4,3 +4,5 @@
 /.settings
 /target
 
+# We don't need the stuff downloaded by bower. 
+/src/main/resources/static/bower_components 
