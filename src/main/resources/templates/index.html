@@ -4,9 +4,21 @@
 
 <title>Index</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet"
+	href="bower_components/bootstrap/dist/css/bootstrap.css"></link>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="app/controllers/hello_world_controller.js"></script>
+
+
 </head>
-<body>
-	<h1>Hello</h1>
-	This is a thymeleaf template. The plain old HTML is not working, as yet. 
+
+<body ng-app="HelloWorldApp">
+	<div ng-controller="HelloWorldController">
+		<input ng-model="name"></input> 
+		<h1>Hello, {{name}}</h1>
+	</div>
 </body>
+
 </html>
